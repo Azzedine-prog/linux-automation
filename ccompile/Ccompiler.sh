@@ -1,10 +1,11 @@
 #!/bin/bash
 
-printf "<--********************* your program ****************************************\n"
+
 
 if [[ "$1" != ""  || "$2" != "" ]] ;
 then
 	gcc -Wall $1 -o $2
+	printf "<--********************* your program ****************************************\n"
 	./$2
 	printf "\n********************************************************** -->"
 	printf "\n do u want to deleat temporary file (executables) [Y/n] default n :"
