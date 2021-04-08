@@ -5,6 +5,7 @@
 if [[ "$1" != ""  || "$2" != "" ]] ;
 then
 	g++ -Wall $1 -o $2
+	if test -f "$2";then
 	printf "<--********************* your program mr $USER ********************************\n"
 	./$2
 	printf "\n********************************************************** -->"
@@ -16,6 +17,7 @@ then
 	else 
         	rm $2
         	printf "\ndone succesfully \n<-- good bye -->\n"
+	fi
 	fi
 
 else 
