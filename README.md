@@ -21,7 +21,7 @@ option of deleting temporary files.
 3. **enjoy**
 
 ## git-auto:
-ccompile : git adding and commiting and pushing is getting more robotic so 
+git-auto : git adding and commiting and pushing is getting more robotic so 
 this tool will siplify those steps 
 
 ### how to install 
