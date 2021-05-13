@@ -1,5 +1,5 @@
 # linux-automation
-linux automation tools developped by azzedine
+linux automation tools developped by azzedine , sipmle tools but effective in routines.
 ## ccompile:
 ccompile : is a simple tool that use gcc to execute your c files and give you output and
 option of deleting temporary files. 
@@ -19,5 +19,15 @@ option of deleting temporary files.
 2. **secondly :** `sudo chmod +x install.sh && ./install.sh`
 *to execute a c++ file : cppcompl [name of c++ file] [name of output]*
 3. **enjoy**
+
+## git-auto:
+ccompile : git adding and commiting and pushing is getting more robotic so 
+this tool will siplify those steps 
+
+### how to install 
+1. **secondly :** `sudo chmod +x git-auto/git-auto && ./install.sh`
+*to work with it* : `sh git-auto/git-auto [name of the commit]`
+**for now it's under developpement**
+2. **enjoy**
  
 ##### from azzedine lakhdar
