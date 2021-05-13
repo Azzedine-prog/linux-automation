@@ -25,7 +25,7 @@ git-auto : git adding and commiting and pushing is getting more robotic so
 this tool will siplify those steps 
 
 ### how to install 
-1. **secondly :** `sudo chmod +x git-auto/git-auto && ./install.sh`
+1. **do :** `sudo chmod +x git-auto/git-auto && ./install.sh` / *in windows git no sudo needed*  
 *to work with it* : `sh git-auto/git-auto [name of the commit]`
 **for now it's under developpement**
 2. **enjoy**
